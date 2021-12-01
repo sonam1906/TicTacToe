@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/TicTacToe/style.css" type="text/css">
+   <title>Tic Tac Toe</title>
+</head>
+<body style="background-color: rgb(226, 226, 226);">
+   <nav>
+      <a class="icon">MyTicTacToe</a>
+      <a class="item" style="margin-right: 30px;">Know Us</a>
+      <a class="item">About</a>
+      <a class="item">Home</a>
+      
+   </nav>
+
+   <div class="gameinfo">
+      <h1>Welcome to Tic Tac Toe</h1>
+      <div class="info">
+         Player 1 is O <br>
+         Player 2 is X <br>
+         <span id="turn" ></span>
+      </div>
+   </div>
+
+   <center>
+      <div class="container">
+         <div class="cell" id="1"></div>
+         <div class="cell" id="2"></div>
+         <div class="cell" id="3"></div>
+         <div class="cell" id="4"></div>
+         <div class="cell" id="5"></div>
+         <div class="cell" id="6"></div>
+         <div class="cell" id="7"></div>
+         <div class="cell" id="8"></div>
+         <div class="cell" id="9"></div>
+      </div>
+   </center>
+
+   <Center><button type="reset" id="reset" onclick="restart()">Reset</button></Center> 
+   <!--Result div-->
+   <div class="res" id="result"></div>
+   <footer>
+      Know us
+   </footer>
+
+   <script src="/TicTacToe/script.js"></script>
+</body>
+</html>
